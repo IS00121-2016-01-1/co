@@ -21,7 +21,7 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Hola mundo");
+        System.out.println("Hola mundo Main");
         PersistenceMock persistenceMock = new PersistenceMock();
         ArrayList<Aeropuerto> aerops = new ArrayList<>();
         Aeropuerto aerop = new Aeropuerto(2705, "El Eden", "Armenia", "Colombia", "AXM", "SKAR", 4.452775, -75.766447, 3990, -5, "U", "America/Bogota");
